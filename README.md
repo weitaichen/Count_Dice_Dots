@@ -34,6 +34,13 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 
 Ref. X.-C. Yuan, L.-S. Wu, and Q. Peng, “An improved Otsu method using the weighted object variance for defect detection,” Applied Surface Science, vol. 349, pp. 472–484, 2015.
 
-* Find
+* Find contour: After binarization, the contour of dice can be easily located using findContours function in OpenCV. Detailed discussion of parameters of findContours function and example code list in below websites.
+https://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html?highlight=findcontours#findcontours
+https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.html
+
+* Hough circle detection: Since the dots in dice is in circle shape, HoughCircles function in OpenCV is applied to find dots in each dice. The detail discussion of parameters and exmaple codes of HoughCircles function list in below websites.
+https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/hough_circle/hough_circle.html
+
+
 
 
