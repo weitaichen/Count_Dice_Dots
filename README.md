@@ -18,8 +18,13 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Build and run Count_Dice_Dots.cpp and have fun! <br />
 
 
+## Goal of this work
+* The goal of this program is to detect contour of multiple dice and count numbers of dots
+
+* Input image
+<p align="center"><img src="dice1.png" height="30%" width="30%"></p>
+* Output image
+<p align="center"><img src="output1.png" height="30%" width="30%"></p>
+
 ## How does this work
 * The goal of this program
-
-<p align="center"><img src="dice1.png" height="30%" width="30%"></p>
-<p align="center"><img src="output1.png" height="30%" width="30%"></p>
