@@ -15,10 +15,8 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Add library dependency:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
 * Download msvcp120d.dll and msvcr120d.dll to main.exe folder <br />
 * Copy all file into your project folder<br />
-* Build project and find main.exe directory, put lena.png file into that folder <br />
-* Open cmd.exe and go to your debug directory where main.exe was generated <br />
-* Enter command "main.exe lena.png 1" <br />
-* Have fun! <br />
+* Build and run Count_Dice_Dots.cpp and have fun! <br />
 
 
 ## How does this work
+* The goal of this program
