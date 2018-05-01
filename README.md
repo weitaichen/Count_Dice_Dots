@@ -28,4 +28,12 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 <p align="center"><img src="output1.png" height="30%" width="30%"></p>
 
 ## How does this work
-* The goal of this program
+* There are three major steps to achieve the goal: Binarization, Find contour, Hough circle detection.
+
+* Binarization: To automatic binarize input image into foreground(dice area) and background(wooden table), Otsu's threshold method is applied. Otsu's threshold is a automatic thresholding method base on finding optimal threshold value which have maximum between-class variance between foreground and background. However, when histogram of input image is not bimodal, to be specific, when input image is dice3.png, which have no dice but only wooden table. In this case, the Otsu's method will fail. Therefore, In the automatic binarization step, I applied weighted Otsu's method(Yuan, 2015) to enforce the optimal threshold close to zero when the histogram is monomodal. 
+
+Ref. X.-C. Yuan, L.-S. Wu, and Q. Peng, “An improved Otsu method using the weighted object variance for defect detection,” Applied Surface Science, vol. 349, pp. 472–484, 2015.
+
+* Find
+
+
