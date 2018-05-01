@@ -22,3 +22,4 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * The goal of this program
 
 <p align="center"><img src="dice1.png" height="30%" width="30%"></p>
+<p align="center"><img src="output1.png" height="30%" width="30%"></p>
